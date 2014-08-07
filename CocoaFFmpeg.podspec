@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/jold/CocoaFFmpeg"
   s.author       = { "Daniel Jankovic" => "dj@digital-life.cz" } 
-  s.source       = { :git => "https://github.com/jold/CocoaFFmpeg.git", :tag => "2.2" }
+  s.source       = { :git => "https://github.com/jold/CocoaFFmpeg.git", :tag => "2.2.0" }
   
   s.ios.deployment_target = '6.0'
   s.requires_arc = false
