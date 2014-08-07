@@ -1,6 +1,6 @@
 # FFmpeg iOS build script
 
-This is a shell script and pre-compiled libraries of FFmpeg for iOS apps.
+Pre-compiled light-weight FFmpeg libraries for iOS. Build your own with attached build script.
 
 Tested with:
 
