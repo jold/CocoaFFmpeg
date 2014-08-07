@@ -1,4 +1,4 @@
-# FFmpeg iOS build script
+# FFmpeg iOS build script and Pre-compiled light-weight libraries
 
 Pre-compiled light-weight FFmpeg libraries for iOS. Build your own with attached build script.
 
