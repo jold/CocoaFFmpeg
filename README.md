@@ -13,12 +13,26 @@ Tested with:
 
 build-ffmpeg.sh [minimal|entire] [arm64|armv7s|armv7|x86_64|i386] [lipo] 
 
-* common:
-: ./build-ffmpeg.sh minimal - build optimized libraries with all necessary stuff and h264 codec 
-: ./build-ffmpeg.sh minimal arm64 armv7s armv7 - build minimal configuration for device architectures only 
-* miscellaneous: 
-: ./build-ffmpeg.sh universal - build configuration with all codecs 
-: ./build-ffmpeg.sh lipo - join created libraries only for architectures into one fat library
+#### common:
+
+build optimized libraries with all necessary stuff and h264 codec 
+```
+./build-ffmpeg.sh minimal
+```
+build minimal configuration for device architectures only 
+```
+./build-ffmpeg.sh minimal arm64 armv7s armv7
+```
+
+#### miscellaneous:
+build configuration with all codecs 
+```
+./build-ffmpeg.sh universal
+```
+join created libraries only for architectures into one fat library
+```
+./build-ffmpeg.sh lipo
+```
 
 ## Download
 
