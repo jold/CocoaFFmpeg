@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CocoaFFmpeg"
-  s.version      = "2.2"
+  s.version      = "2.2.0"
   s.license      = { :type => 'LGPLv2.1+', :file => 'COPYING.LGPLv2.1' }
   
   s.summary      = "Pre-compiled light-weight FFmpeg libraries for iOS. Build your own with attached build script."
