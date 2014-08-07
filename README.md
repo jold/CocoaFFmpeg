@@ -1,6 +1,8 @@
-# FFmpeg iOS build script and Pre-compiled light-weight libraries
+# pre-compiled light-weight FFmpeg libraries for iOS
 
-Pre-compiled light-weight FFmpeg libraries for iOS. Build your own with attached build script.
+Size optimized FFmpeg libraries for iOS. Build your own with attached build script.
+		video codecs: h264 (enable h263)
+		audio codecs: AAC (enable mp3)
 
 Tested with:
 
